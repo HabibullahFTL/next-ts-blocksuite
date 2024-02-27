@@ -1,0 +1,26 @@
+{
+  "name": "test-next-block-suite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "infisical run -- next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@blocksuite/presets": "^0.12.0-canary-202402010557-e8d6e1d",
+    "@blocksuite/store": "^0.12.0-canary-202402010557-e8d6e1d",
+    "file-loader": "^6.2.0",
+    "next": "14.1.0",
+    "next-pwa": "^5.6.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "url-loader": "^4.1.1",
+    "yjs": "^13.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
