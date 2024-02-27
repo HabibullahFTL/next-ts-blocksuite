@@ -956,38 +956,38 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@blocksuite/block-std@0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/block-std/-/block-std-0.12.0-canary-202402010557-e8d6e1d.tgz#99e257fd024bcd710b6bbf609878505179981378"
-  integrity sha512-B5D5RiWlouY0I3boh6QQDNOf7+vAlTL/WG1UfOAutVCs2W5L51Jzh4vZBpWaLr91SpOqrw32nAu0xBmlI0A84Q==
+"@blocksuite/block-std@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/block-std/-/block-std-0.11.0.tgz#d83daf75b534618877b03726fd06ea6f44c294bf"
+  integrity sha512-xW6R2EMT5s9kL/yRkRXlwqQ8pSoJQ9ZFOY4KKesmDrN94aAOjrf7Gc6Gxk8SuGq+dpy7G6yISQNYXgwWGmqD1w==
   dependencies:
-    "@blocksuite/global" "0.12.0-canary-202402010557-e8d6e1d"
+    "@blocksuite/global" "0.11.0"
     lz-string "^1.5.0"
     w3c-keyname "^2.2.8"
     zod "^3.22.4"
 
-"@blocksuite/blocks@0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/blocks/-/blocks-0.12.0-canary-202402010557-e8d6e1d.tgz#68eafe2db8b91981262e2073b4d06c9bb548de17"
-  integrity sha512-aAzftxeAvp4cJxlQV/U/bFwYZSBk/PD2yGB5/d6/cmB7eqdbHs+GLt0pcZgC8UlYNwSWqLNNcBI7XbqE/Ab7PQ==
+"@blocksuite/blocks@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/blocks/-/blocks-0.11.0.tgz#b105d847fe7bd2970500dfffbcef716d407b495d"
+  integrity sha512-UR+TlEVffh0rr2+eU5UVFvJdNQdr5QUkhq89feSIJaWthf9RUpGUhIrAo8hBtbiCQs/LA4L57gaU/wfxo/pKkQ==
   dependencies:
-    "@blocksuite/block-std" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/global" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/inline" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/lit" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/store" "0.12.0-canary-202402010557-e8d6e1d"
+    "@blocksuite/block-std" "0.11.0"
+    "@blocksuite/global" "0.11.0"
+    "@blocksuite/inline" "0.11.0"
+    "@blocksuite/lit" "0.11.0"
+    "@blocksuite/store" "0.11.0"
     "@floating-ui/dom" "^1.5.4"
     "@toeverything/theme" "^0.7.27"
     "@types/hast" "^3.0.3"
     "@types/mdast" "^4.0.3"
     "@types/webfontloader" "^1.6.38"
     buffer "^6.0.3"
-    date-fns "^3.3.0"
+    date-fns "^3.1.0"
     file-type "^16.5.4"
     fractional-indexing "^3.2.0"
     html2canvas "^1.4.1"
     jszip "^3.10.1"
-    lit "^3.1.1"
+    lit "^3.1.0"
     mdast-util-gfm-autolink-literal "^2.0.0"
     mdast-util-gfm-strikethrough "^2.0.0"
     mdast-util-gfm-table "^2.0.0"
@@ -1005,59 +1005,59 @@
     remark-parse "^11.0.0"
     remark-stringify "^11.0.0"
     shiki "^0.14.7"
-    sortablejs "^1.15.2"
+    sortablejs "^1.15.1"
     unified "^11.0.4"
     webfontloader "^1.6.28"
     zod "^3.22.4"
 
-"@blocksuite/global@0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/global/-/global-0.12.0-canary-202402010557-e8d6e1d.tgz#49250e986a4d80406e06a101e9df30024ad67181"
-  integrity sha512-cjA93Fney9/9HkMPNrgRDOyVVQ4C7jM21kJ9E+s/wzu/6xBsiyHTvVLF6pnFaUHor1EwwGMRIOYCOUK3vcOWVw==
+"@blocksuite/global@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/global/-/global-0.11.0.tgz#1e66193fe12f7fe8188bcbb28e2ba0cbbbe5bbe5"
+  integrity sha512-oXQ5xOV3i2/EBIDie5rdfzhKVbUmAq8a1HvEkx9szsddymFlLmS4lSsvJKOZzFTAFv4jgGXiwWtplabo5jWfuA==
   dependencies:
     zod "^3.22.4"
 
-"@blocksuite/inline@0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/inline/-/inline-0.12.0-canary-202402010557-e8d6e1d.tgz#855b68ba858d2912e1edf617ae12df4701b92faf"
-  integrity sha512-PCh/q6evSycV0TuGk/uWIsDRAutLW+4ruY7I25z3UmTeMJcEsM5ZKjdd04pWiUy4Z6KSNNuyD2sI3xBXCiQCpA==
+"@blocksuite/inline@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/inline/-/inline-0.11.0.tgz#57d1d48725b1f46bed61793cf2329ff2d5c7b45b"
+  integrity sha512-18V6edahUYTZ8A3xfJbt9SInpfEw8EcJz4b54PGAprL+Yk/JHwkZtgm8TmlljuXPbhFOhR9qNgTHJTVGl0LVqA==
   dependencies:
-    "@blocksuite/global" "0.12.0-canary-202402010557-e8d6e1d"
+    "@blocksuite/global" "0.11.0"
     zod "^3.22.4"
 
-"@blocksuite/lit@0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/lit/-/lit-0.12.0-canary-202402010557-e8d6e1d.tgz#9a5034a212f506fbd8fd5bdf76ce8171a11252ef"
-  integrity sha512-xNBzq4LTPVUl4w2CHwpB8wEOLkvJJP8liKsPl68HMhPIpFELkMKc5ySOY/tTE3DBsaRFCO5eieRr9Zy25uAVYA==
+"@blocksuite/lit@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/lit/-/lit-0.11.0.tgz#8e1f078dc1f0cfc8b15c0b613a243caae5e6cfe3"
+  integrity sha512-PlHylQ5MCHR8ytHojgmnpRydQb1TqVn1BEx2FPm/WKGK2JCQEfHedySkdcDBz6mF5Zb4Vjz/MOlFCKLJehlruw==
   dependencies:
-    "@blocksuite/global" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/inline" "0.12.0-canary-202402010557-e8d6e1d"
-    lit "^3.1.1"
+    "@blocksuite/global" "0.11.0"
+    "@blocksuite/inline" "0.11.0"
+    lit "^3.1.0"
 
-"@blocksuite/presets@^0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/presets/-/presets-0.12.0-canary-202402010557-e8d6e1d.tgz#96aa5eccd899bcf3945f1ddfbd182ae864c90885"
-  integrity sha512-BaKrocckEJGNAzfbuJ5TuNhDzF2+1w/do67hBU4Rd0Sbze7MN5Nqxde9j891vcNYDTssR6H/RRpREcptYMt2Qw==
+"@blocksuite/presets@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/presets/-/presets-0.11.0.tgz#89d3f6bfa39d969539f15cff8cf0942c66dce71a"
+  integrity sha512-CPFqEVoeI950hojG+cAWqKuVQPAeXWWaaQAx+MMFZJjbcduN/4MCT9SOvUGeKmtIuEtQ+4dsekLO3C+fLTMVjQ==
   dependencies:
-    "@blocksuite/block-std" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/blocks" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/global" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/inline" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/lit" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/store" "0.12.0-canary-202402010557-e8d6e1d"
-    "@fal-ai/serverless-client" "^0.8.2"
+    "@blocksuite/block-std" "0.11.0"
+    "@blocksuite/blocks" "0.11.0"
+    "@blocksuite/global" "0.11.0"
+    "@blocksuite/inline" "0.11.0"
+    "@blocksuite/lit" "0.11.0"
+    "@blocksuite/store" "0.11.0"
+    "@fal-ai/serverless-client" "^0.7.4"
     "@floating-ui/dom" "^1.5.4"
     "@toeverything/theme" "^0.7.27"
-    lit "^3.1.1"
-    openai "^4.25.0"
+    lit "^3.1.0"
+    openai "^4.24.1"
 
-"@blocksuite/store@0.12.0-canary-202402010557-e8d6e1d", "@blocksuite/store@^0.12.0-canary-202402010557-e8d6e1d":
-  version "0.12.0-canary-202402010557-e8d6e1d"
-  resolved "https://registry.yarnpkg.com/@blocksuite/store/-/store-0.12.0-canary-202402010557-e8d6e1d.tgz#6f838e1f9c1a253f96ef8bd039e0d96e7737a2b6"
-  integrity sha512-T1CZfbEr6053tDioPSFUWueMplJQMezX+X+pgKRJQSizx1rWDz19+ZxyWvFrfx017wLI/9Bg5rqOqytY9UzNHw==
+"@blocksuite/store@0.11.0", "@blocksuite/store@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@blocksuite/store/-/store-0.11.0.tgz#3ba47fe2f01d556d856939dc46991aea65faa4eb"
+  integrity sha512-j8HlxkeOR7PLXn6kE6hQibB3inXRRMt7BbxYNEVfL+uJB0YxCBMKPJRKfER9C6QYGiZMieqpaMdXmz05Xmc2RQ==
   dependencies:
-    "@blocksuite/global" "0.12.0-canary-202402010557-e8d6e1d"
-    "@blocksuite/inline" "0.12.0-canary-202402010557-e8d6e1d"
+    "@blocksuite/global" "0.11.0"
+    "@blocksuite/inline" "0.11.0"
     "@types/flexsearch" "^0.7.6"
     flexsearch "0.7.43"
     idb-keyval "^6.2.1"
@@ -1100,10 +1100,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
-"@fal-ai/serverless-client@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@fal-ai/serverless-client/-/serverless-client-0.8.2.tgz#22f368738f346586239a75c447855633d6855a81"
-  integrity sha512-oGT7Vi6S+CviOTsIEAf6isnLEp6g4gQEPBE6SqJUlbVIGFDzQQdXZr9bdToGXIomYXassD9waFfPBedxUVCKtA==
+"@fal-ai/serverless-client@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@fal-ai/serverless-client/-/serverless-client-0.7.4.tgz#0dcf769d0f2778fcab24b8fd2d9f579bad571226"
+  integrity sha512-E68x6re35E5GzB7ay7wRxDT74ykCjCzWGrRv/w1W3bFAnrolzfknjPIYQque8own0P0yWhhiJynN/LyuyRlchw==
   dependencies:
     "@msgpack/msgpack" "^3.0.0-beta2"
     robot3 "^0.4.1"
@@ -2070,7 +2070,7 @@ damerau-levenshtein@^1.0.8:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-date-fns@^3.3.0:
+date-fns@^3.1.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-3.3.1.tgz#7581daca0892d139736697717a168afbb908cfed"
   integrity sha512-y8e109LYGgoQDveiEBD3DYXKba1jWf5BA8YU1FL5Tvm0BTdEfy54WLCwnuYWZNnzzvALy/QQ4Hov+Q9RVRv+Zw==
@@ -3560,7 +3560,7 @@ lit-html@^3.1.2:
   dependencies:
     "@types/trusted-types" "^2.0.2"
 
-lit@^3.1.1:
+lit@^3.1.0:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/lit/-/lit-3.1.2.tgz#f276258e8a56593f1d834a5fd00a7eb5e891ae73"
   integrity sha512-VZx5iAyMtX7CV4K8iTLdCkMaYZ7ipjJZ0JcSdJ0zIdGxxyurjIn7yuuSxNBD7QmjvcNJwr0JS4cAdAtsy7gZ6w==
@@ -4247,10 +4247,10 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-openai@^4.25.0:
-  version "4.26.0"
-  resolved "https://registry.yarnpkg.com/openai/-/openai-4.26.0.tgz#0363b9d390727705b89cd1b1ea8e38af2afd53b6"
-  integrity sha512-HPC7tgYdeP38F3uHA5WgnoXZyGbAp9jgcIo23p6It+q/07u4C+NZ8xHKlMShsPbDDmFRpPsa3vdbXYpbhJH3eg==
+openai@^4.24.1:
+  version "4.28.0"
+  resolved "https://registry.yarnpkg.com/openai/-/openai-4.28.0.tgz#ded00e3d98c25758b5406c9675ec27a957e00930"
+  integrity sha512-JM8fhcpmpGN0vrUwGquYIzdcEQHtFuom6sRCbbCM6CfzZXNuRk33G7KfeRAIfnaCxSpzrP5iHtwJzIm6biUZ2Q==
   dependencies:
     "@types/node" "^18.11.18"
     "@types/node-fetch" "^2.6.4"
@@ -4855,7 +4855,7 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-sortablejs@^1.15.2:
+sortablejs@^1.15.1:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.2.tgz#4e9f7bda4718bd1838add9f1866ec77169149809"
   integrity sha512-FJF5jgdfvoKn1MAKSdGs33bIqLi3LmsgVTliuX6iITj834F+JRQZN90Z93yql8h0K2t0RwDPBmxwlbZfDcxNZA==
